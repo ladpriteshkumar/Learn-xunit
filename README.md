@@ -23,3 +23,8 @@ Both [Fact] and [Theory] allow you to skip tests with the Skip property:
 [Fact(Skip = "Reason for skipping")]
 public void ThisTestIsSkipped() { ... }
 ```
+
+
+### how do you validate data in xUnit or nUnit
+In both xUnit and NUnit, you validate data using assertions. Assertions check whether the actual output of your code matches the expected result. In xUnit, you use the Assert class (e.g., Assert.Equal, Assert.True),
+
