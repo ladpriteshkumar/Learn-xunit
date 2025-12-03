@@ -15,3 +15,11 @@ To supply data to [Theory] methods, xUnit provides additional attributes:
 - [InlineData]: Passes simple values directly.
 - [MemberData]: Uses static members/properties of a class as data sources.
 - [ClassData]: Uses a class that implements IEnumerable<object[]> as a data source.
+
+
+### Skipping Tests
+Both [Fact] and [Theory] allow you to skip tests with the Skip property:
+```csharp
+[Fact(Skip = "Reason for skipping")]
+public void ThisTestIsSkipped() { ... }
+```
