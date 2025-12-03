@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TestClassLibrary/TestClassLibrary.csproj" />
+  <Project Path="xunitTestProject/xunitTestProject.csproj" />
+</Solution>
